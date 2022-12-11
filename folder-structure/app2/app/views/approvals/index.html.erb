@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Approvals</h1>
+
+<div id="approvals">
+  <% @approvals.each do |approval| %>
+    <%= render approval %>
+    <p>
+      <%= link_to "Show this approval", approval %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New approval", new_approval_path %>
