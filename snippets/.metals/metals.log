@@ -1,0 +1,62 @@
+2022.12.24 15:20:42 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/chrisza/dev/humaistic-architecture/snippets/.metals/lsp.trace.json or /Users/chrisza/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.12.24 15:20:43 INFO  logging to file /Users/chrisza/dev/humaistic-architecture/snippets/.metals/metals.log
+2022.12.24 15:20:43 INFO  Started: Metals version 0.11.9 in workspace '/Users/chrisza/dev/humaistic-architecture/snippets' for client Visual Studio Code 1.74.2.
+2022.12.24 15:20:44 INFO  time: initialize in 1.62s
+2022.12.24 15:20:47 WARN  Build server is not auto-connectable.
+2022.12.24 15:20:47 WARN  no build tool detected in workspace '/Users/chrisza/dev/humaistic-architecture/snippets'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.12.24 15:20:47 WARN  no build target for: /Users/chrisza/dev/humaistic-architecture/snippets/J.java
+Dec 24, 2022 3:20:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Dec 24, 2022 3:20:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2022.12.24 15:20:48 INFO  time: code lens generation in 1.51s
+2022.12.24 16:01:32 INFO  shutting down Metals
+2023.01.28 15:50:39 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/chrisza/dev/humaistic-architecture/snippets/.metals/lsp.trace.json or /Users/chrisza/Library/Caches/org.scalameta.metals/lsp.trace.json
+2023.01.28 15:50:39 INFO  logging to file /Users/chrisza/dev/humaistic-architecture/snippets/.metals/metals.log
+2023.01.28 15:50:39 INFO  Started: Metals version 0.11.10 in workspace '/Users/chrisza/dev/humaistic-architecture/snippets' for client Visual Studio Code 1.74.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/chrisza/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.28 15:50:41 INFO  time: initialize in 1.42s
+2023.01.28 15:50:43 WARN  Build server is not auto-connectable.
+2023.01.28 15:50:43 WARN  no build tool detected in workspace '/Users/chrisza/dev/humaistic-architecture/snippets'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Jan 28, 2023 3:50:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.01.28 15:50:43 WARN  no build target for: /Users/chrisza/dev/humaistic-architecture/snippets/J.java
+2023.01.28 20:33:44 WARN  no build target for: /Users/chrisza/dev/humaistic-architecture/snippets/J.java
+2023.01.29 12:42:34 INFO  shutting down Metals
+2023.01.31 21:12:00 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/chrisza/dev/humaistic-architecture/snippets/.metals/lsp.trace.json or /Users/chrisza/Library/Caches/org.scalameta.metals/lsp.trace.json
+2023.01.31 21:12:01 INFO  logging to file /Users/chrisza/dev/humaistic-architecture/snippets/.metals/metals.log
+2023.01.31 21:12:01 INFO  Started: Metals version 0.11.10 in workspace '/Users/chrisza/dev/humaistic-architecture/snippets' for client Visual Studio Code 1.74.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/chrisza/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.31 21:12:04 INFO  time: initialize in 2.93s
+2023.01.31 21:12:08 WARN  Build server is not auto-connectable.
+2023.01.31 21:12:08 WARN  no build tool detected in workspace '/Users/chrisza/dev/humaistic-architecture/snippets'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.01.31 21:12:08 WARN  no build target for: /Users/chrisza/dev/humaistic-architecture/snippets/J.java
+2023.01.31 21:12:32 INFO  shutting down Metals
+2023.01.31 21:12:54 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/chrisza/dev/humaistic-architecture/snippets/.metals/lsp.trace.json or /Users/chrisza/Library/Caches/org.scalameta.metals/lsp.trace.json
+2023.01.31 21:12:55 INFO  logging to file /Users/chrisza/dev/humaistic-architecture/snippets/.metals/metals.log
+2023.01.31 21:12:55 INFO  Started: Metals version 0.11.10 in workspace '/Users/chrisza/dev/humaistic-architecture/snippets' for client Visual Studio Code 1.74.3.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/chrisza/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.31 21:12:58 INFO  time: initialize in 2.49s
+2023.01.31 21:13:00 WARN  Build server is not auto-connectable.
+2023.01.31 21:13:00 WARN  no build tool detected in workspace '/Users/chrisza/dev/humaistic-architecture/snippets'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.01.31 21:13:00 WARN  no build target for: /Users/chrisza/dev/humaistic-architecture/snippets/J.java
+Jan 31, 2023 9:16:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 31, 2023 9:29:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2023.02.01 08:52:35 INFO  shutting down Metals

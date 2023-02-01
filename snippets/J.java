@@ -1,5 +1,6 @@
 class Downloader {
     public void DownloadContent(string path) {
+        // Preparation
         FileService fileService;
         if (environment == "production") {
             fileService = new S3FileService();
@@ -7,18 +8,17 @@ class Downloader {
             fileService = new LocalDiskFileService();
         }
         fileService.Download(path);
+        // Prepare response
     }
 }
 
 // ==========================================================
 
 class Downloader {
-    public Downloader(FileService fileService) {
-        this.fileService = fileService;
-    }
-
     public void DownloadContent(string path) {
-        this.fileService.Download(path);
+        // Preparation
+        FileServiceFactory.Create().Download(path);
+        // Prepare response
     }
 }
 
@@ -37,11 +37,13 @@ interface ShitDoer {
 }
 
 class WeirdShitWhenMyComputerIsCrazyDoer implements ShitDoer {
-    public void doIt() { }
+    public void doIt() {
+    }
 }
 
 class NormalShitDoer implements ShitDoer {
-    public void doIt() { }
+    public void doIt() {
+    }
 }
 
 class ShitDoerChooser {
