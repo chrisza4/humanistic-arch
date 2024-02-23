@@ -44,13 +44,6 @@ function canUserCreateInvoice(user) {
 
 // ===========================
 
-type MarioState = {
-  x: number;
-  y: number;
-  targetY: number;
-  state: "Normal" | "Dead";
-};
-
 function Jump(current: MarioState): MarioState {
   return {
     ...current,
@@ -58,10 +51,30 @@ function Jump(current: MarioState): MarioState {
   };
 }
 
-function Jump(current: MarioState): MarioState {
+function DeathScene(current: MarioState): DeathMario {
   return {
     ...current,
     targetY: current.y + 10,
     state: "Dead",
   };
+}
+
+type MarioState = {
+  x: number;
+  y: number;
+  targetY: number;
+  state: "Normal";
+};
+
+type DeathMario = {
+  x: number;
+  y: number;
+  targetY: number;
+  state: "Dead";
+};
+
+function Simulate() {
+  const initialState: MarioState = { x: 0, y: 0, targetY: 0, state: "Normal" };
+  const nextState = DeathScene(initialState);
+  const nextState2 = Jump(nextState);
 }
