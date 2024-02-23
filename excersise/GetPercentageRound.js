@@ -1,4 +1,4 @@
-function getPercentageRound(percentage) {
+export function getPercentageRound(percentage) {
   if (percentage == 0) return "⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪";
   if (percentage > 0.0 && percentage <= 0.1) return "🔵⚪⚪⚪⚪⚪⚪⚪⚪⚪";
   if (percentage > 0.1 && percentage <= 0.2) return "🔵🔵⚪⚪⚪⚪⚪⚪⚪⚪";
